@@ -1,1 +1,170 @@
-# Readme
+<div align="center">
+
+<img src="assets/hero.svg" alt="void — definescloud. A space for ideas, experiments, and what's next." width="100%">
+
+<br>
+
+<a href="https://definescloud.site"><img src="https://img.shields.io/badge/portfolio-definescloud.site-8b5cf6?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Portfolio"></a>
+<a href="https://discord.com/users/337964487241891840"><img src="https://img.shields.io/badge/discord-definescloud-5865F2?style=flat-square&amp;logo=discord&amp;logoColor=white" alt="Discord"></a>
+<a href="mailto:void@definescloud.site"><img src="https://img.shields.io/badge/email-void%40definescloud.site-3fb950?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+<a href="https://github.com/tanmay712"><img src="https://img.shields.io/badge/github-tanmay712-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
+
+</div>
+
+---
+
+## `whoami`
+
+```txt
+void@definescloud:~$ whoami
+void — also known as definescloud
+
+  role      builder of small, careful things
+  focus     interfaces · motion · live presence
+  stack     Next.js · React · TypeScript · Tailwind · Node.js
+  site      definescloud.site
+  discord   definescloud
+  status    open to ideas, experiments, and good conversations
+```
+
+Hey, I'm **void** — also known as **definescloud**. This is my corner of the internet: a place for ideas, experiments, and things worth sharing. The story is still being written, and the best parts are usually the ones that haven't shipped yet.
+
+---
+
+## `presence` — live from Discord
+
+[![Live Discord presence — what I'm doing right now](assets/discord-presence.svg)](https://discord.com/users/337964487241891840)
+
+<sub>Game, app, Spotify track, and status — pulled from [Lanyard](https://github.com/Phineas/lanyard) and refreshed every 5 minutes by a GitHub Action.</sub>
+
+> [!NOTE]
+> **Want to see your own presence here?** Join the [Lanyard Discord server](https://discord.gg/lanyard), then enable **User Settings → Activity Privacy → Share your detected activities**. For Spotify, also enable **Settings → Connections → Spotify → Display Spotify as your status**. The card updates itself — no tokens, no secrets, no browser calls.
+
+<details>
+<summary><strong>How this card is built</strong></summary>
+
+<br>
+
+- [`scripts/update-discord-presence.mjs`](scripts/update-discord-presence.mjs) fetches `api.lanyard.rest/v1/users/337964487241891840`.
+- It renders a dependency-free SVG with the current status, activity, Spotify track, and progress bar.
+- Small images (avatar, album art, app icons) are inlined as data URIs, because GitHub's camo proxy does not fetch external references from inside an SVG.
+- [`.github/workflows/discord-presence.yml`](.github/workflows/discord-presence.yml) runs the script every 5 minutes and commits only when the card actually changes.
+
+</details>
+
+---
+
+## `tracks` — on rotation
+
+The local player from my [Portfolio](https://github.com/tanmay712/Portfolio), in track order. These are listening picks bundled with the site — **not tracks I authored**.
+
+| # | Track | Artist | Album | Length | Listen |
+|:-:|:--|:--|:--|:-:|:--|
+| 01 | <img src="assets/track-02.webp" width="44" height="44" alt="Finding Her artwork"> **Finding Her** | Kushagra, Bharath | Finding Her | 3:18 | [▶](https://raw.githubusercontent.com/tanmay712/Portfolio/main/public/music/track-02.mp3) |
+| 02 | <img src="assets/track-03.webp" width="44" height="44" alt="Dil Tu Jaan Tu artwork"> **Dil Tu Jaan Tu** | Gurnazar | Dil Tu Jaan Tu | 4:02 | [▶](https://raw.githubusercontent.com/tanmay712/Portfolio/main/public/music/track-03.mp3) |
+
+<br>
+
+<div align="center">
+
+**▶ Play the full local library on [definescloud.site](https://definescloud.site)** — play/pause, previous/next, shuffle, repeat, seek, and volume.
+
+</div>
+
+<details>
+<summary><strong>Full local library</strong> <code>(3 tracks, 10:54 total)</code></summary>
+
+<br>
+
+| # | Track | Artist | Album | Length | Note |
+|:-:|:--|:--|:--|:-:|:--|
+| 01 | Local track 01 | Unattributed template audio | Local library | 3:34 | Template placeholder |
+| 02 | Finding Her | Kushagra, Bharath | Finding Her | 3:18 | Listening pick |
+| 03 | Dil Tu Jaan Tu | Gurnazar | Dil Tu Jaan Tu | 4:02 | Listening pick |
+
+<br>
+
+Machine-readable version: [`data/tracks.json`](data/tracks.json)
+
+</details>
+
+---
+
+## `work` — selected builds
+
+### [Portfolio](https://github.com/tanmay712/Portfolio)
+
+> A cinematic, command-driven personal portfolio built with Next.js, TypeScript, React, Tailwind CSS, Framer Motion, Lanyard, and the browser Audio API.
+
+`TypeScript` `Next.js` `React` `Tailwind CSS` `Lanyard` `Netlify`
+
+### [Quest-completerv2](https://github.com/tanmay712/Quest-completerv2)
+
+> A Discord.js v14 bot template — a clean starting point for a Discord "App" with commands, config, and a place to grow.
+
+`JavaScript` `Discord.js` `Node.js`
+
+---
+
+## `stack` — the toolbox
+
+| Interface | Motion & visuals | Live presence | Deployment |
+|:--|:--|:--|:--|
+| Next.js · React · TypeScript · Tailwind CSS | Framer Motion · Lucide · Inter · JetBrains Mono | Discord · Lanyard · WebSockets | Netlify · Node.js · Git |
+
+---
+
+## `telemetry` — GitHub, tracked
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tanmay712&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=e6edf3&amp;text_color=8b949e&amp;icon_color=8b5cf6&amp;rank_icon=github&amp;include_all_commits=true" alt="GitHub stats for tanmay712" width="49%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tanmay712&amp;layout=compact&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=e6edf3&amp;text_color=8b949e&amp;langs_count=6" alt="Top languages for tanmay712" width="42%">
+</p>
+
+<div align="center">
+
+| Commits | Pull requests | Repositories |
+|:---:|:---:|:---:|
+| **16** | **4** | **3** |
+
+<sub>Public contributions over the last 12 months · snapshot via GitHub GraphQL</sub>
+
+</div>
+
+---
+
+## `currently`
+
+- 🔭 **Building** — a cinematic portfolio and small Discord tools
+- 🎧 **Listening** — local picks, plus whatever the current Spotify queue is
+- 💬 **Ask me about** — Next.js, TypeScript, Discord.js, Lanyard
+- 🌐 **Elsewhere** — [definescloud.site](https://definescloud.site)
+
+---
+
+## `connect`
+
+<div align="center">
+
+<a href="https://discord.com/users/337964487241891840"><img src="https://img.shields.io/badge/Discord-definescloud-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Discord"></a>
+<a href="mailto:void@definescloud.site"><img src="https://img.shields.io/badge/Email-void%40definescloud.site-3fb950?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+<a href="https://definescloud.site"><img src="https://img.shields.io/badge/Portfolio-definescloud.site-8b5cf6?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio"></a>
+<a href="https://github.com/tanmay712"><img src="https://img.shields.io/badge/GitHub-tanmay712-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
+
+<br>
+
+<sub>If you made it this far, say hi. My inbox is open.</sub>
+
+</div>
+
+---
+
+<div align="center">
+
+<sub>Built with care · presence by <a href="https://github.com/Phineas/lanyard">Lanyard</a> · synced by <a href="https://github.com/tanmay712/Readme/actions">GitHub Actions</a></sub>
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=tanmay712&amp;label=profile+views&amp;color=8b5cf6&amp;style=flat-square" alt="Profile views">
+
+</div>

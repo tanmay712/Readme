@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "void — local rotation",
+  "description": "Track data for the local player bundled with the Portfolio. These are listening picks, not tracks authored by void.",
+  "source": "tanmay712/Portfolio → public/music",
+  "player": "https://definescloud.site",
+  "updatedAt": "2026-11-04",
+  "tracks": [
+    {
+      "id": "track-01",
+      "title": "Local track 01",
+      "artist": "Unattributed template audio",
+      "album": "Local library",
+      "durationSeconds": 214,
+      "artwork": "assets/track-01.webp",
+      "audio": "https://raw.githubusercontent.com/tanmay712/Portfolio/main/public/music/track-01.mp3",
+      "placeholder": true
+    },
+    {
+      "id": "track-02",
+      "title": "Finding Her",
+      "artist": "Kushagra, Bharath",
+      "album": "Finding Her",
+      "durationSeconds": 198,
+      "artwork": "assets/track-02.webp",
+      "audio": "https://raw.githubusercontent.com/tanmay712/Portfolio/main/public/music/track-02.mp3",
+      "placeholder": false
+    },
+    {
+      "id": "track-03",
+      "title": "Dil Tu Jaan Tu",
+      "artist": "Gurnazar",
+      "album": "Dil Tu Jaan Tu",
+      "durationSeconds": 242,
+      "artwork": "assets/track-03.webp",
+      "audio": "https://raw.githubusercontent.com/tanmay712/Portfolio/main/public/music/track-03.mp3",
+      "placeholder": false
+    }
+  ]
+}

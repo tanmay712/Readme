@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="void — definescloud. A space for ideas, experiments, and what's next.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="0.55" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0d12"/>
+    </linearGradient>
+    <radialGradient id="violet" cx="0.82" cy="0.12" r="0.55">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#8b5cf6" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan" cx="0.12" cy="0.95" r="0.55">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="0.6" stop-color="#22d3ee" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#30363d" stroke-opacity="0.30" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#8b949e" fill-opacity="0.16"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="420" rx="24"/></clipPath>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <rect width="1280" height="420" fill="url(#dots)" opacity="0.55"/>
+    <rect width="1280" height="420" fill="url(#violet)"/>
+    <rect width="1280" height="420" fill="url(#cyan)"/>
+
+    <!-- left edge accent -->
+    <rect x="0" y="0" width="3" height="420" fill="url(#edge)"/>
+
+    <!-- prompt line -->
+    <text x="64" y="74" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" letter-spacing="0.6">
+      <tspan fill="#8b949e">void@definescloud</tspan><tspan fill="#30363d">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#3fb950">$</tspan>
+    </text>
+    <rect x="236" y="61" width="9" height="17" rx="1.5" fill="#3fb950" opacity="0.9"/>
+
+    <!-- wordmark -->
+    <text x="60" y="218" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="128" font-weight="700" letter-spacing="-8" fill="#8b5cf6" opacity="0.28">void</text>
+    <text x="64" y="214" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="128" font-weight="700" letter-spacing="-8" fill="#e6edf3">void</text>
+    <rect x="66" y="232" width="86" height="4" rx="2" fill="#8b5cf6"/>
+    <rect x="158" y="232" width="26" height="4" rx="2" fill="#22d3ee" opacity="0.8"/>
+
+    <!-- tagline -->
+    <text x="66" y="278" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="21" fill="#8b949e">A space for ideas, experiments, and what's next.</text>
+    <text x="66" y="306" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#6e7681">builder of small, careful things on the internet</text>
+
+    <!-- chips -->
+    <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12">
+      <rect x="66" y="330" width="88" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+      <text x="110" y="348" text-anchor="middle" fill="#c9d1d9">Next.js</text>
+
+      <rect x="162" y="330" width="104" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+      <text x="214" y="348" text-anchor="middle" fill="#c9d1d9">TypeScript</text>
+
+      <rect x="274" y="330" width="78" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+      <text x="313" y="348" text-anchor="middle" fill="#c9d1d9">React</text>
+
+      <rect x="360" y="330" width="92" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+      <text x="406" y="348" text-anchor="middle" fill="#c9d1d9">Lanyard</text>
+
+      <rect x="460" y="330" width="92" height="28" rx="14" fill="#161b22" stroke="#30363d"/>
+      <text x="506" y="348" text-anchor="middle" fill="#c9d1d9">Discord</text>
+    </g>
+
+    <!-- footer -->
+    <line x1="64" y1="382" x2="700" y2="382" stroke="#30363d" stroke-opacity="0.8"/>
+    <text x="64" y="404" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#6e7681" letter-spacing="0.4">definescloud.site</text>
+    <text x="700" y="404" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#6e7681" letter-spacing="0.4">github.com/tanmay712</text>
+
+    <!-- terminal -->
+    <g>
+      <rect x="752" y="56" width="464" height="320" rx="14" fill="#0f141b" stroke="#30363d"/>
+      <rect x="752" y="56" width="464" height="38" rx="14" fill="#161b22"/>
+      <rect x="752" y="80" width="464" height="14" fill="#161b22"/>
+      <line x1="752" y1="94" x2="1216" y2="94" stroke="#30363d"/>
+      <circle cx="774" cy="75" r="5" fill="#ff5f56"/>
+      <circle cx="792" cy="75" r="5" fill="#ffbd2e"/>
+      <circle cx="810" cy="75" r="5" fill="#27c93f"/>
+      <text x="984" y="79" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" letter-spacing="0.8">void — zsh</text>
+      <circle cx="1188" cy="75" r="3.5" fill="#3fb950"/>
+
+      <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12.5">
+        <text x="774" y="122"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text>
+        <text x="774" y="144" fill="#8b949e">void</text>
+
+        <text x="774" y="172"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> cat stack.txt</tspan></text>
+        <text x="774" y="194" fill="#8b949e">Next.js · TypeScript · React</text>
+
+        <text x="774" y="222"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> status</tspan></text>
+        <text x="774" y="244" fill="#8b949e">building things that feel alive</text>
+
+        <text x="774" y="272"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> discord --status</tspan></text>
+        <text x="774" y="294" fill="#8b949e">definescloud</text>
+        <circle cx="878" cy="290" r="3.5" fill="#3fb950"/>
+
+        <text x="774" y="322"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> sudo make-me-coffee</tspan></text>
+        <text x="774" y="344" fill="#f85149">permission denied (nice try)</text>
+
+        <text x="774" y="366"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> </tspan></text>
+        <rect x="792" y="355" width="8" height="14" rx="1.5" fill="#3fb950" opacity="0.9"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="419" rx="23.5" fill="none" stroke="#30363d"/>
+</svg>
