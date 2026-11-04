@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="356" viewBox="0 0 880 356" role="img" aria-label="Discord presence standby card">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#30363d" stroke-opacity="0.26" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="880" height="356" rx="20" fill="#0d1117"/>
+  <rect width="880" height="356" rx="20" fill="url(#grid)"/>
+  <rect width="880" height="356" rx="20" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="879" height="355" rx="19.5" fill="none" stroke="#30363d"/>
+
+  <text x="36" y="42" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#8b949e" letter-spacing="2.4">DISCORD PRESENCE</text>
+  <text x="844" y="42" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="1.2">LANYARD · STANDBY</text>
+  <line x1="36" y1="64" x2="844" y2="64" stroke="#30363d"/>
+
+  <rect x="36" y="92" width="64" height="64" rx="32" fill="#11161f" stroke="#30363d"/>
+  <text x="68" y="133" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="24" fill="#8b5cf6">V</text>
+  <text x="118" y="116" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="21" font-weight="700" fill="#e6edf3">void</text>
+  <text x="118" y="140" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="13" fill="#8b949e">@definescloud · 337964487241891840</text>
+  <text x="844" y="116" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="1.4">NOT MONITORED</text>
+  <text x="844" y="140" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="1.4">AUTO-SYNC ON</text>
+
+  <line x1="36" y1="180" x2="844" y2="180" stroke="#30363d"/>
+
+  <text x="36" y="218" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="15" fill="#e6edf3">Presence is standing by.</text>
+  <text x="36" y="244" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="12.5" fill="#8b949e">Join the Lanyard Discord server and enable activity sharing to appear here.</text>
+  <text x="36" y="266" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="12.5" fill="#8b949e">The card refreshes automatically every 5 minutes via GitHub Actions.</text>
+  <text x="36" y="306" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#6e7681">Lanyard request failed: fetch failed</text>
+  <rect x="684" y="292" width="160" height="26" rx="13" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.45"/>
+  <circle cx="700" cy="305" r="4" fill="#8b5cf6"/>
+  <text x="710" y="309.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#8b5cf6">auto-sync on</text>
+</svg>

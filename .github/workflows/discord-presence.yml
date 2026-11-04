@@ -1,0 +1,52 @@
+name: Discord presence
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub may delay scheduled runs by a few minutes.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/update-discord-presence.mjs"
+      - ".github/workflows/discord-presence.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discord-presence
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Refresh Lanyard card
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Render presence card
+        run: node scripts/update-discord-presence.mjs
+        env:
+          # Public Discord user ID. No token or secret is required.
+          LANYARD_USER_ID: "337964487241891840"
+
+      - name: Commit card if it changed
+        run: |
+          if git status --porcelain -- assets/discord-presence.svg | grep -q .; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/discord-presence.svg
+            git commit -m "chore: refresh Discord presence"
+            git push
+          else
+            echo "Presence unchanged — nothing to commit."
+          fi
