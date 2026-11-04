@@ -8,6 +8,7 @@ on:
   push:
     branches: [main]
     paths:
+      - "README.md"
       - "scripts/update-discord-presence.mjs"
       - ".github/workflows/discord-presence.yml"
 

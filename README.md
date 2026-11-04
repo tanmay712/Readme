@@ -33,22 +33,28 @@ Hey, I'm **void** — also known as **definescloud**. This is my corner of the i
 
 ## `presence` — live from Discord
 
-[![Live Discord presence — what I'm doing right now](assets/discord-presence.svg)](https://discord.com/users/337964487241891840)
+<div align="center">
 
-<sub>Game, app, Spotify track, and status — pulled from [Lanyard](https://github.com/Phineas/lanyard) and refreshed every 5 minutes by a GitHub Action.</sub>
+[![Live Discord presence — what I'm doing right now](https://discord-activity-card.vercel.app/api/status/337964487241891840?profile=true&amp;decoration=true&amp;small_image=true&amp;name_type=display&amp;bg=0d1117&amp;border=30363d&amp;title=e6edf3&amp;text=8b949e&amp;time=8b949e&amp;bar_bg=30363d&amp;bar_fg=8b5cf6)](https://discord.com/users/337964487241891840)
+
+<br>
+
+<sub>Status, activity, and Spotify — rendered from [Lanyard](https://github.com/Phineas/lanyard) by [discord-activity-card](https://github.com/AdityaLF/discord-activity-card). GitHub caches the image, so allow a few minutes for updates.</sub>
+
+</div>
 
 > [!NOTE]
-> **Want to see your own presence here?** Join the [Lanyard Discord server](https://discord.gg/lanyard), then enable **User Settings → Activity Privacy → Share your detected activities**. For Spotify, also enable **Settings → Connections → Spotify → Display Spotify as your status**. The card updates itself — no tokens, no secrets, no browser calls.
+> **Want to see your own presence here?** Join the [Lanyard Discord server](https://discord.gg/UrXF2cfJ7F), then enable **User Settings → Activity Privacy → Share your detected activities**. For Spotify, also enable **Settings → Connections → Spotify → Display Spotify as your status**. The card updates itself — no tokens, no secrets, no browser calls.
 
 <details>
 <summary><strong>How this card is built</strong></summary>
 
 <br>
 
-- [`scripts/update-discord-presence.mjs`](scripts/update-discord-presence.mjs) fetches `api.lanyard.rest/v1/users/337964487241891840`.
-- It renders a dependency-free SVG with the current status, activity, Spotify track, and progress bar.
-- Small images (avatar, album art, app icons) are inlined as data URIs, because GitHub's camo proxy does not fetch external references from inside an SVG.
-- [`.github/workflows/discord-presence.yml`](.github/workflows/discord-presence.yml) runs the script every 5 minutes and commits only when the card actually changes.
+- The hosted card is an SVG rendered on demand from Lanyard's public API — no token, secret, or browser call.
+- This repo also ships a dependency-free generator, [`scripts/update-discord-presence.mjs`](scripts/update-discord-presence.mjs), which writes a snapshot to [`assets/discord-presence.svg`](assets/discord-presence.svg). It inlines small images as data URIs, because GitHub's camo proxy does not fetch external references from inside an SVG.
+- [`.github/workflows/discord-presence.yml`](.github/workflows/discord-presence.yml) runs that generator every 5 minutes and commits only when the card changes — a self-hosted fallback if you would rather not depend on a third-party renderer.
+- Prefer self-hosting? Swap the image above for [`assets/discord-presence.svg`](assets/discord-presence.svg).
 
 </details>
 
