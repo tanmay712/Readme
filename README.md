@@ -36,7 +36,7 @@ Hey, I'm **void** — also known as **definescloud**. This is my corner of the i
 
 <div align="center">
 
-[![Live Discord presence — what I'm doing right now](https://discord-activity-card.vercel.app/api/status/337964487241891840?profile=true&amp;decoration=true&amp;small_image=true&amp;name_type=display&amp;bg=0d1117&amp;border=30363d&amp;title=e6edf3&amp;text=8b949e&amp;time=8b949e&amp;bar_bg=30363d&amp;bar_fg=8b5cf6)](https://discord.com/users/337964487241891840)
+[![Live Discord presence — what I'm doing right now](https://discord-activity-card.vercel.app/api/status/337964487241891840?profile=true&amp;decoration=true&amp;small_image=true&amp;name_type=display&amp;name_color=e6edf3&amp;bg=0d1117&amp;border=30363d&amp;title=e6edf3&amp;text=8b949e&amp;time=8b949e&amp;bar_bg=30363d&amp;bar_fg=8b5cf6)](https://discord.com/users/337964487241891840)
 
 <br>
 
