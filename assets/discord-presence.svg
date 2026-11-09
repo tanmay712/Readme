@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="338" viewBox="0 0 880 338" role="img" aria-label="Live Discord presence for “तन्मय”">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="392" viewBox="0 0 880 392" role="img" aria-label="Live Discord presence for “तन्मय”">
   <defs>
     <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.20"/>
@@ -9,18 +9,18 @@
       <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#30363d" stroke-opacity="0.24" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="880" height="338" rx="20" fill="#0d1117"/>
-  <rect width="880" height="338" rx="20" fill="url(#grid)"/>
-  <rect width="880" height="338" rx="20" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="879" height="337" rx="19.5" fill="none" stroke="#30363d"/>
+  <rect width="880" height="392" rx="20" fill="#0d1117"/>
+  <rect width="880" height="392" rx="20" fill="url(#grid)"/>
+  <rect width="880" height="392" rx="20" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="879" height="391" rx="19.5" fill="none" stroke="#30363d"/>
 
   <text x="36" y="42" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#8b949e" letter-spacing="2.4">DISCORD PRESENCE</text>
   <text x="844" y="42" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="1.2">VIA LANYARD</text>
   
     <g>
-      <rect x="763.6" y="50" width="80.4" height="26" rx="13" fill="#747f8d" fill-opacity="0.12" stroke="#747f8d" stroke-opacity="0.45"/>
-      <circle cx="777.6" cy="63" r="4" fill="#747f8d"/>
-      <text x="787.6" y="67.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#747f8d" letter-spacing="0.3">Offline</text>
+      <rect x="713.2" y="50" width="130.8" height="26" rx="13" fill="#ed4245" fill-opacity="0.12" stroke="#ed4245" stroke-opacity="0.45"/>
+      <circle cx="727.2" cy="63" r="4" fill="#ed4245"/>
+      <text x="737.2" y="67.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#ed4245" letter-spacing="0.3">Do not disturb</text>
     </g>
   <line x1="36" y1="76" x2="844" y2="76" stroke="#30363d"/>
 
@@ -31,21 +31,27 @@
     <g>
       <text x="118" y="106" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="21" font-weight="700" fill="#e6edf3">“तन्मय”</text>
       <text x="118" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="13" fill="#8b949e">@definescloud · 337964487241891840</text>
-      <text x="844" y="106" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="1.4">DISCORD</text>
+      <text x="844" y="106" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="1.4">MOBILE</text>
       <text x="844" y="130" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="1.4">ID 337964487241891840</text>
     </g>
   <line x1="36" y1="176" x2="844" y2="176" stroke="#30363d"/>
 
   
   
+      <text x="36" y="128" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="2.2">ACTIVITY</text>
+      <line x1="36" y1="140" x2="844" y2="140" stroke="#30363d"/>
+      
+      <rect x="36" y="154" width="76" height="76" rx="10" fill="#11161f" stroke="#30363d"/>
+      <text x="74" y="199" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="22" fill="#8b5cf6">▶</text>
+      <text x="130" y="172" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#8b5cf6" letter-spacing="1.8">PLAYING</text>
+      <text x="130" y="196" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="18" font-weight="700" fill="#e6edf3">Custom Status</text>
+      <text x="130" y="218" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="13" fill="#8b949e">working on cryptly - Crypto Wallet</text>
+      <text x="130" y="238" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11.5" fill="#6e7681">working on cryptly - Crypto Wallet</text>
+        <text x="36" y="266" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#8b949e">No timer reported</text>
   
-      <text x="36" y="114" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="11" fill="#6e7681" letter-spacing="2.2">ACTIVITY</text>
-      <line x1="36" y1="128" x2="844" y2="128" stroke="#30363d"/>
-      <text x="36" y="160" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="14" fill="#8b949e">Nothing on the turntable right now.</text>
-      <text x="36" y="182" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="12" fill="#6e7681">When a game, app, or Spotify track starts, it lands here.</text>
   
 
-  <line x1="36" y1="294" x2="844" y2="294" stroke="#30363d"/>
-  <text x="36" y="318" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#6e7681" letter-spacing="0.8">status: offline · refreshed by GitHub Actions</text>
-  <text x="844" y="318" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#6e7681" letter-spacing="0.8">discord.com/users/337964487241891840</text>
+  <line x1="36" y1="348" x2="844" y2="348" stroke="#30363d"/>
+  <text x="36" y="372" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#6e7681" letter-spacing="0.8">status: dnd · refreshed by GitHub Actions</text>
+  <text x="844" y="372" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace" font-size="10.5" fill="#6e7681" letter-spacing="0.8">discord.com/users/337964487241891840</text>
 </svg>
